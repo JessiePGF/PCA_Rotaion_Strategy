@@ -68,7 +68,7 @@ PCA is estimated from the covariance matrix of scaled returns:
 
 $$
 \begin{aligned}
-\Sigma_{\tilde f} = \operatorname{Cov}(\tilde f_t)\\\\
+\Sigma_{\tilde f} = Cov(\tilde f_t)\\\\
 \Sigma_{\tilde f} q_k^{scaled} = \lambda_k q_k^{scaled}
 \end{aligned}
 $$
@@ -187,11 +187,11 @@ During the out-of-sample period, the scaled PCA factor rotation strategy achieve
 
 3. Weighting rule
 - Sign weighting vs score weighting
-- **Score weighting** performs better, suggesting that the magnitude of PC momentum signals contains useful information.
+- Score weighting performs better, suggesting that the magnitude of PC momentum signals contains useful information.
 
 4. PCA type
 - Scaled PCA vs unscaled covariance PCA
-- **Scaled PCA** improves Sharpe ratio, win rate, and maximum drawdown relative to unscaled PCA.
+- Scaled PCA improves Sharpe ratio, win rate, and maximum drawdown relative to unscaled PCA.
 
   **(Table 2)** Summary of PCA type
 
