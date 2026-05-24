@@ -14,11 +14,13 @@ Raw factor momentum directly applies trend-following signals to individual facto
 ## 4. Factor Construction
 1. Each firm characteristic $c_{i,t}$, is first transformed into a cross-sectional rank, and then centered around zero and normalized by the sum of absolute deviations
 from the mean
+
 $$
 \begin{aligned}
 w_{i,t} = \frac{r c_{i,t} - \bar{r c_{i,t}}}{\sum_{i=1}^{n_{t}} |rc_{i,t} - \bar{rc}_{i,t}|}
 \end{aligned}
 $$
+
 - where $rc_{i,t} = \frac{rank(c_{i,t})}{n_{t} + 1}$, $n_{t}$ is the number of stocks in month t
 
 
