@@ -139,7 +139,7 @@ The strategy return in month $t+1$ is then computed using raw factor returns:
 
 $$
 \begin{aligned}
-R_{t+1}^{strategy} = \tilde w_t^{factor} f_{t+1}
+R_{t+1}^{strategy} = \tilde w_t^{factor} f_{t+1}^T
 \end{aligned}
 $$
 
